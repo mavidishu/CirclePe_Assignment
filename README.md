@@ -57,16 +57,14 @@ Follow these steps to set up the project locally:
     │   │   ├── Header.js
     │   │   ├── Footer.js
     │   │   └── Circle.js       # Example component (Circle)
-    │   ├── pages/              # Pages for the application (Home, About, etc.)
-    │   │   ├── Home.js
-    │   │   └── About.js
-    │   ├── styles/             # Global and component-specific styles
-    │   │   ├── main.css        # Global styles
-    │   │   ├── header.css      # Header-specific styles
-    │   │   └── circle.css      # Circle-specific styles
-    │   ├── App.js              # Main application component
-    │   ├── index.js            # Entry point for React
-    │   └── utils/              # Utility functions (optional)
+    │   ├── section/              # Pages for the application (Home, About, etc.)
+    │   │   ├── setp4.js
+    │   │  
+    │   ├── App.css      
+    │   ├── App.jsx       
+    │   ├── demo.jsx     
+    │   ├── index.css        
+    │   └── main.jsx
     │
     ├── .gitignore              
     ├── README.md               

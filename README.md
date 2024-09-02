@@ -51,15 +51,39 @@ Follow these steps to set up the project locally:
     │
     ├── src/
     │   ├── assets/             # Source assets like images, fonts, etc.
-    │   │   ├── images/
-    │   │   └── fonts/
+    │   │   ├── 18_1.png
+    │   │   ├── 18_2.png
+    │   │   ├── phone1.jpg
+    │   │   ├── phone2.jpg
+    │   │   ├── phone3.jpg
+    │   │   ├── phone4_1.jpg
+    │   │   ├── phone4.jpg
+    │   │   ├── phone5.jpg
+    │   │   └── phone6.jpg
     │   ├── components/         # Reusable components (Header, Footer, etc.)
-    │   │   ├── Header.js
-    │   │   ├── Footer.js
-    │   │   └── Circle.js       # Example component (Circle)
-    │   ├── section/              # Pages for the application (Home, About, etc.)
-    │   │   ├── setp4.js
-    │   │  
+    │   │   ├── arrow/
+    │   │   |   ├── arrow.css
+    │   │   |   ├── arrow.jsx
+    │   │   ├── circle/
+    │   │   |   ├── circle.css
+    │   │   |   ├── circle.jsx      
+    │   │   ├── phone/
+    │   │   |   ├── phone.css
+    │   │   |   ├── phone.jsx         
+    │   │   ├── Text/
+    │   │   |   ├── text1.jsx
+    │   │   |   ├── text2.jsx
+    │   │   |   ├── text3.jsx
+    │   │   |   ├── text4.jsx
+    │   │   |   ├── text5.jsx
+    │   │   |   ├── text6.jsx
+    │   │   ├── vertical_line/
+    │   │   |   ├── format_text.jsx
+    │   │   |   ├── rectangle.jsx
+    │   │   ├── format_text.jsx
+    │   │   ├── rectangle.jsx
+    │   │   ├── text.css
+    │   │ 
     │   ├── App.css      
     │   ├── App.jsx       
     │   ├── demo.jsx     
@@ -88,4 +112,3 @@ Follow these steps to set up the project locally:
  - *Cross-Browser Compatibility:* Testing and fixing issues across different browsers required significant effort.
  - *Performance Optimization:* Balancing visual fidelity with performance, especially on slower network connections, was a challenge.
 
->>>>>>> 8532d79e95a1c00613d7f5c3916ebfa2cec31852

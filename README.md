@@ -49,13 +49,6 @@ Follow these steps to set up the project locally:
   ```
     CirclePe-Assignment/
     │
-    ├── public/
-    │   ├── index.html          # Main HTML file
-    │   ├── favicon.ico         # Website favicon
-    │   └── assets/             # Public assets like images, fonts
-    │       ├── images/
-    │       └── fonts/
-    │
     ├── src/
     │   ├── assets/             # Source assets like images, fonts, etc.
     │   │   ├── images/
@@ -75,10 +68,13 @@ Follow these steps to set up the project locally:
     │   ├── index.js            # Entry point for React
     │   └── utils/              # Utility functions (optional)
     │
-    ├── .gitignore              # Git ignore file
-    ├── package.json            # NPM package dependencies and scripts
-    ├── README.md               # Project README file
-    └── webpack.config.js       # Webpack configuration (if applicable)
+    ├── .gitignore              
+    ├── README.md               
+    ├── eslint.config.js        
+    ├── package-lock.json       
+    ├── package.json            
+    ├── index.html              
+    └── vite.config.js          
   ```
 
 ### Technologies Used
